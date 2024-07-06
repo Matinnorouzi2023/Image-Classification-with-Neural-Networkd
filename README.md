@@ -29,7 +29,7 @@ python train.py
 
 
 python evaluate.py
-
+## Making Predictions
 # Example code snippet for making predictions
 from model import load_model, preprocess_image
 
@@ -38,3 +38,5 @@ image = preprocess_image('path_to_image')
 
 prediction = model.predict(image)
 print(prediction)
+
+Replace 'path_to_model_checkpoint' and 'path_to_image' with actual paths.
