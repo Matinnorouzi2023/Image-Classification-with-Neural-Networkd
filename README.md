@@ -27,16 +27,18 @@ To train the model, run the following command:
 ```bash
 python train.py
 
-
+## Evaluating the Model
 python evaluate.py
+
 ## Making Predictions
+
 # Example code snippet for making predictions
-from model import load_model, preprocess_image
+`from model import load_model, preprocess_image
 
 model = load_model('path_to_model_checkpoint')
 image = preprocess_image('path_to_image')
 
 prediction = model.predict(image)
-print(prediction)
+print(prediction)`
 
-Replace 'path_to_model_checkpoint' and 'path_to_image' with actual paths.
+##Replace 'path_to_model_checkpoint' and 'path_to_image' with actual paths.
